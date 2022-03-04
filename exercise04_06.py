@@ -6,10 +6,11 @@ def computepay(h, r) :
         print("Regular")
         reg = h * r
         otp = 0
-        p = reg + otp
+    p = reg + otp
+    return p
 hrs = input("Enter Hours:")
 h = float(hrs)
 rate = input("Enter Rate:")
 r = float (rate)
 p = computepay(h, r)
-print("Pay:", p)
+print("Pay", p)
